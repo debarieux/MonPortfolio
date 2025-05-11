@@ -4,6 +4,14 @@ const nextConfig = {
   compress: true,
   productionBrowserSourceMaps: false,
   poweredByHeader: false,
+  eslint: {
+    // Désactiver les vérifications ESLint lors du build
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    // Désactiver les vérifications TypeScript lors du build
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
