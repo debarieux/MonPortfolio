@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Scrum",
+    "src": "/images/methodology/scrum.svg"
+  },
+  {
+    "id": 2,
+    "name": "Kanban",
+    "src": "/images/methodology/kanban.svg"
+  },
+  {
+    "id": 3,
+    "name": "DevOps",
+    "src": "/images/methodology/devops.svg"
+  }
+]

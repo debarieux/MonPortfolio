@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio personnel",
+    "icon": "💼",
+    "description": "Site vitrine personnel optimisé SEO présentant mes compétences, services et réalisations en tant que développeur web. Design responsive, navigation intuitive et performances optimales.",
+    "shortDescription": "Portfolio professionnel avec design responsive et optimisation SEO",
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    "url": "#",
+    "image": "/images/projects/david.jpg",
+    "altText": "Portfolio professionnel de David Debarieux, développeur web indépendant"
+  },
+  {
+    "id": 2,
+    "title": "Site vitrine - Entreprise de nettoyage",
+    "icon": "🧼",
+    "description": "Conception et développement d'un site vitrine pour une entreprise locale de nettoyage professionnel. Mise en valeur des services, témoignages clients authentiques et formulaire de demande de devis optimisé pour les conversions.",
+    "shortDescription": "Vitrine web pour services de nettoyage avec formulaire de contact optimisé",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "url": "https://tidass-nettoyage.vercel.app/",
+    "image": "/images/projects/tidass.png",
+    "altText": "Site web professionnel pour entreprise de nettoyage avec design moderne"
+  },
+  {
+    "id": 3,
+    "title": "Site artisan - Bricolage",
+    "icon": "🔨",
+    "description": "Création d'un site web pour un artisan bricoleur mettant en valeur son savoir-faire, ses réalisations et ses services. Galerie de projets optimisée pour les performances et SEO local pour une meilleure visibilité.",
+    "shortDescription": "Site artisanal avec galerie de réalisations et optimisation SEO local",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "url": "https://bricole-tout.vercel.app/",
+    "image": "/images/projects/bricolTout.png",
+    "altText": "Site web pour artisan bricoleur avec galerie de réalisations professionnelles"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio photographe",
+    "icon": "📷",
+    "description": "Développement d'un portfolio artistique pour une photographe professionnelle avec galerie interactive optimisée pour les images haute résolution. Interface élégante et fonctionnelle avec gestion efficace des ressources.",
+    "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "url": "https://celine-debarieux.vercel.app/",
+    "image": "/images/projects/celine.jpg",
+    "altText": "Portfolio en ligne pour photographe professionnelle avec galerie optimisée"
+  },
+  {
+    "id": 5,
+    "title": "Site vitrine - Portfolio",
+    "icon": "🧼",
+    "description": "Interface responsive pour entreprise de nettoyage, incluant un formulaire optimisé",
+    "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "url": "https://speedclean72-pro.vercel.app/",
+    "image": "/images/projects/speedclean.png",
+    "altText": "Portfolio en ligne pour photographe professionnelle avec galerie optimisée"
+  },
+  {
+    "id": 6,
+    "title": "CV en ligne",
+    "icon": "📷",
+    "description": "Développement d'un portfolio artistique pour une photographe professionnelle avec galerie interactive optimisée pour les images haute résolution. Interface élégante et fonctionnelle avec gestion efficace des ressources.",
+    "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
+    "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "url": "#",
+    "image": "/images/projects/3.jpg",
+    "altText": "Portfolio en ligne pour photographe professionnelle avec galerie optimisée"
+  }
+]

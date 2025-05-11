@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-texturina);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+
+  .font-texturina {
+    font-family: var(--font-texturina);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 198.6 88.7% 48.4%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 0 0% 20%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 37.7 92.1% 50.2%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --primary: 198.6 88.7% 48.4%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 0 0% 40%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --accent: 37.7 92.1% 50.2%;
+  --accent-foreground: 210 40% 98%;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+  
+  h2 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+  
+  h3 {
+    @apply text-2xl font-bold tracking-tight;
+  }
+  
+  p {
+    @apply text-lg leading-7;
+  }
+
+  .skill-progress {
+    @apply h-2 w-full bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden relative;
+  }
+
+  .skill-progress-bar {
+    @apply h-full rounded-full absolute left-0 top-0;
+    background: linear-gradient(to right, var(--progress-color));
+    background-color: var(--progress-color);
+  }
+
+  .skill-progress-hover {
+    @apply h-full rounded-full absolute left-0 top-0 opacity-0 transition-opacity duration-200;
+    background: linear-gradient(to right, var(--progress-color));
+  }
+
+  .skill-progress:hover .skill-progress-hover {
+    @apply opacity-100;
+  }
+
+  @keyframes progress-grow {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+}
