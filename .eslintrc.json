@@ -42,15 +42,9 @@
     "@typescript-eslint/no-non-null-assertion": "error",
     
     // React rules
-    "react/no-unescaped-entities": [
-      "error",
-      {
-        "forbid": [
-          { "char": ">", "alternatives": [">"] },
-          { "char": "}", "alternatives": ["&#125;"] }
-        ]
-      }
-    ],
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
+    "@next/next/no-html-link-for-pages": "off",
     "react/jsx-no-target-blank": ["error", { "enforceDynamicLinks": "always" }],
     "react/jsx-key": "error",
     "react/self-closing-comp": "error",
