@@ -120,7 +120,7 @@ export default function SkillsSection() {
             viewport={{ once: true }}
             className="text-lg text-gray-700 dark:text-gray-300"
           >
-            Des technologies modernes que j'utilise pour créer des sites web performants et élégants
+            Des technologies modernes que j&apos;utilise pour créer des sites web performants et élégants
           </motion.p>
         </div>
 

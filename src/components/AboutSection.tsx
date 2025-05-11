@@ -53,7 +53,7 @@ export default function AboutSection() {
                   </svg>
                 </div>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-                  J'accompagne les <strong className="text-blue-700 dark:text-blue-400">artisans, indépendants, associations et particuliers</strong> dans la création de sites web modernes, efficaces et adaptés à leurs besoins spécifiques.
+                  J&apos;accompagne les <strong className="text-blue-700 dark:text-blue-400">artisans, indépendants, associations et particuliers</strong> dans la création de sites web modernes, efficaces et adaptés à leurs besoins spécifiques.
                 </p>
               </div>
               

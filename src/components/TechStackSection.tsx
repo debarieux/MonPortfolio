@@ -42,7 +42,7 @@ export function TechStackSection() {
             Mon Stack Technique
           </h2>
               <p className="text-muted-foreground">
-                J'utilise les dernières technologies pour créer des applications performantes et modernes.
+                J&apos;utilise les dernières technologies pour créer des applications performantes et modernes.
               </p>
         </div>
 

@@ -208,8 +208,8 @@ export function ContactFormSection() {
                       <SelectValue placeholder="Sélectionnez une formule" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="essentielle">Formule L'Essentielle</SelectItem>
-                      <SelectItem value="pro">Formule L’Équilibré</SelectItem>
+                      <SelectItem value="essentielle">Formule L&#39;Essentielle</SelectItem>
+                      <SelectItem value="pro">Formule L&#39;Équilibré</SelectItem>
                       <SelectItem value="sur-mesure">Formule Le Complet</SelectItem>
                     </SelectContent>
                   </Select>

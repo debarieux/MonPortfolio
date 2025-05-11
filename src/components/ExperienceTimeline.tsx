@@ -96,7 +96,7 @@ export function ExperienceTimeline() {
           viewport={{ once: true }}
           className="text-lg text-center max-w-3xl mx-auto mb-16 text-gray-700 dark:text-gray-300"
         >
-          Issu d'un parcours dans le secteur alimentaire, je mets aujourd'hui ma rigueur et mon sens du service au profit de mes clients en tant que <strong>développeur web spécialisé dans la création de sites vitrines</strong> pour artisans et PME.
+          Issu d&apos;un parcours dans le secteur alimentaire, je mets aujourd&apos;hui ma rigueur et mon sens du service au profit de mes clients en tant que <strong>développeur web spécialisé dans la création de sites vitrines</strong> pour artisans et PME.
         </motion.p>
         
         <div className="relative mt-20">

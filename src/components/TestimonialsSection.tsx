@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-6 pb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent inline-block"
           >
-            Ce qu'ils disent de moi
+            Ce qu&apos;ils disent de moi
           </motion.h2>
           <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mx-auto mb-6"></div>
           <motion.p
@@ -118,11 +118,11 @@ export default function TestimonialsSection() {
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-purple-600 transform origin-left transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></div>
                 
                 {/* Citation décorative */}
-                <div className="absolute top-4 right-4 opacity-10 text-6xl text-blue-600 dark:text-blue-400 font-serif">"</div>
+                <div className="absolute top-4 right-4 opacity-10 text-6xl text-blue-600 dark:text-blue-400 font-serif">&quot;</div>
                 
                 <div className="flex-grow flex flex-col">
                   <p className="text-gray-700 dark:text-gray-300 text-lg md:text-xl leading-relaxed mb-8 italic relative z-10">
-                    "{testimonial.content}"
+                    &quot;{testimonial.content}&quot;
                   </p>
                   
                   <div className="mt-auto">

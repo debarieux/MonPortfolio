@@ -214,12 +214,12 @@ export default function Footer() {
             >
               Politique de confidentialité
             </Link>
-            <a 
+            <Link 
               href="/#contact" 
               className="text-sm text-blue-600 dark:text-blue-400 font-medium hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
             >
               Me contacter
-            </a>
+            </Link>
           </div>
         </div>
       </div>
