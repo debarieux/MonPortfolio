@@ -1,0 +1,3 @@
+# Ignorer les fichiers de configuration ESLint
+.eslintrc.json
+.eslintrc.js
