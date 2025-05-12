@@ -100,46 +100,47 @@ export function ExperienceTimeline() {
         </motion.p>
         
         <div className="relative mt-20">
-          {/* Ligne verticale de la timeline avec animation d'apparition */}
-          <motion.div 
-            initial={{ height: 0 }}
-            whileInView={{ height: "100%" }}
-            transition={{ duration: 1.5, ease: "easeInOut" }}
-            viewport={{ once: true }}
-            className="absolute left-1/2 w-1 md:w-1.5 bg-gradient-to-b from-blue-500 via-purple-500 to-indigo-500" 
-            aria-hidden="true" 
-            style={{ transform: "translateX(-50%)" }}
-          />
+          {/* Conteneur pour la ligne verticale de la timeline */}
+          <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-1 md:w-1.5">
+            {/* Ligne verticale de la timeline avec animation d'apparition */}
+            <motion.div 
+              initial={{ height: 0 }}
+              whileInView={{ height: "100%" }}
+              transition={{ duration: 1.5, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="h-full w-full bg-gradient-to-b from-blue-500 via-purple-500 to-indigo-500" 
+              aria-hidden="true" 
+            />
+          </div>
           
           <motion.div 
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="space-y-20"
+            className="space-y-8 md:space-y-12"
           >
             {experiences.map((exp, index) => (
               <motion.div
                 key={exp.id}
                 variants={itemVariants}
-                className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center gap-8 md:gap-16 relative`}
+                className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center md:items-start gap-12 md:gap-8 relative py-6 md:py-10`}
               >
                 {/* Point central sur la timeline avec animation */}
                 <motion.div 
                   variants={timelineDotVariants}
-                  className="absolute left-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-10 shadow-lg" 
-                  style={{ transform: "translate(-50%, 0)", top: "50%" }}
+                  className="absolute left-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-10 shadow-lg -translate-x-1/2 top-24 md:top-1/2 md:-translate-y-1/2" 
                 >
                   <div className="absolute inset-1 rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
                     <StarFilledIcon className="w-3 h-3 text-purple-500" />
                   </div>
                 </motion.div>
                 
-                <div className="w-full md:w-[45%] relative">
+                <div className="w-full md:w-[42%] relative">
                   <motion.div 
-                    whileHover={{ scale: 1.03 }}
+                    whileHover={{ scale: 1.02 }}
                     transition={{ type: "spring", stiffness: 300 }}
-                    className="p-6 md:p-8 rounded-3xl shadow-xl hover:shadow-2xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-gray-200/50 dark:border-gray-700/50"
+                    className="p-5 md:p-6 rounded-2xl shadow-lg hover:shadow-xl bg-white/90 dark:bg-gray-800/90 backdrop-blur-md border border-gray-200/50 dark:border-gray-700/50"
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <div className="p-2 rounded-full bg-blue-100 dark:bg-blue-900/30">
@@ -175,7 +176,7 @@ export function ExperienceTimeline() {
                   </motion.div>
                 </div>
                 
-                <div className="hidden md:block md:w-[45%]" aria-hidden="true" />
+                <div className="hidden md:block md:w-[42%]" aria-hidden="true" />
               </motion.div>
             ))}
           </motion.div>
