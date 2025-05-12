@@ -38,7 +38,7 @@ const nextConfig = {
     minimumCacheTTL: 60,
   },
   experimental: {
-    serverActions: {},
+    serverActions: true,
     turbo: {}
   },
   headers: async () => [
