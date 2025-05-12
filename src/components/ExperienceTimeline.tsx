@@ -1,6 +1,5 @@
 "use client"
 
-import { Badge } from "@/components/ui/badge"
 import { CalendarIcon, StarFilledIcon } from "@radix-ui/react-icons"
 import { motion } from "framer-motion"
 
@@ -164,13 +163,12 @@ export function ExperienceTimeline() {
                     
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech) => (
-                        <Badge 
-                          key={tech} 
-                          variant="secondary"
-                          className="text-sm py-1.5 px-3 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 backdrop-blur-sm border border-blue-200/50 dark:border-purple-700/50 hover:-translate-y-1 transition-all duration-300 hover:shadow-md"
+                        <span
+                          key={tech}
+                          className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300 border border-blue-200/50 dark:border-blue-700/50 hover:-translate-y-1 transition-all duration-300 hover:shadow-md"
                         >
                           {tech}
-                        </Badge>
+                        </span>
                       ))}
                     </div>
                   </motion.div>

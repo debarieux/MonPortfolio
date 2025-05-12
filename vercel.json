@@ -1,14 +1,21 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "ignoreCommand": "echo 'Ignoring ESLint and TypeScript checks'",
+  "public": true,
+  "name": "mon-portfolio",
+  "scope": "debarieuxs-projects-cc6a0382",
   "builds": [
     {
       "src": "next.config.js",
       "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
     }
   ]
 }
