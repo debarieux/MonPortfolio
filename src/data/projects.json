@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Portfolio personnel",
+    "title": "Site personnel",
     "icon": "💼",
     "description": "Site vitrine personnel optimisé SEO présentant mes compétences, services et réalisations en tant que développeur web. Design responsive, navigation intuitive et performances optimales.",
     "shortDescription": "Portfolio professionnel avec design responsive et optimisation SEO",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "title": "Site vitrine - Entreprise de nettoyage",
+    "title": "Entreprise de nettoyage",
     "icon": "🧼",
     "description": "Conception et développement d'un site vitrine pour une entreprise locale de nettoyage professionnel. Mise en valeur des services, témoignages clients authentiques et formulaire de demande de devis optimisé pour les conversions.",
     "shortDescription": "Vitrine web pour services de nettoyage avec formulaire de contact optimisé",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "title": "Portfolio photographe",
+    "title": "Site de Photographie",
     "icon": "📷",
     "description": "Développement d'un portfolio artistique pour une photographe professionnelle avec galerie interactive optimisée pour les images haute résolution. Interface élégante et fonctionnelle avec gestion efficace des ressources.",
     "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
