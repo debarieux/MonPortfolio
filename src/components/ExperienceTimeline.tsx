@@ -101,7 +101,7 @@ export function ExperienceTimeline() {
         
         <div className="relative mt-20">
           {/* Conteneur pour la ligne verticale de la timeline */}
-          <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-1 md:w-1.5">
+          <div className="absolute left-[15px] md:left-1/2 top-0 bottom-0 md:-translate-x-1/2 w-1 md:w-1.5 z-10">
             {/* Ligne verticale de la timeline avec animation d'apparition */}
             <motion.div 
               initial={{ height: 0 }}
@@ -118,18 +118,18 @@ export function ExperienceTimeline() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="space-y-8 md:space-y-12"
+            className="space-y-6 md:space-y-12"
           >
             {experiences.map((exp, index) => (
               <motion.div
                 key={exp.id}
                 variants={itemVariants}
-                className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center md:items-start gap-12 md:gap-8 relative py-6 md:py-10`}
+                className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-start pl-10 md:pl-0 gap-8 md:gap-8 relative py-6 md:py-10`}
               >
                 {/* Point central sur la timeline avec animation */}
                 <motion.div 
                   variants={timelineDotVariants}
-                  className="absolute left-1/2 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-10 shadow-lg -translate-x-1/2 top-24 md:top-1/2 md:-translate-y-1/2" 
+                  className="absolute left-[15px] md:left-1/2 w-5 h-5 md:w-6 md:h-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-20 shadow-lg -translate-x-1/2 top-6 md:top-1/2 md:-translate-y-1/2" 
                 >
                   <div className="absolute inset-1 rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
                     <StarFilledIcon className="w-3 h-3 text-purple-500" />
@@ -140,7 +140,7 @@ export function ExperienceTimeline() {
                   <motion.div 
                     whileHover={{ scale: 1.02 }}
                     transition={{ type: "spring", stiffness: 300 }}
-                    className="p-5 md:p-6 rounded-2xl shadow-lg hover:shadow-xl bg-white/90 dark:bg-gray-800/90 backdrop-blur-md border border-gray-200/50 dark:border-gray-700/50"
+                    className="p-4 md:p-6 rounded-xl shadow-md hover:shadow-lg bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50"
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <div className="p-2 rounded-full bg-blue-100 dark:bg-blue-900/30">
