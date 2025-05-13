@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Fira_Code } from "next/font/google";
-import { texturina } from "@/lib/fonts";
+import { headingFont } from "@/lib/fonts";
 import "./globals.css";
 
 // Optimisation des polices en limitant les poids pour de meilleures performances
@@ -154,7 +154,7 @@ export default function RootLayout({
         ` }} />
       </head>
       <body
-        className={`${inter.variable} ${firaCode.variable} ${texturina.variable} antialiased min-h-screen font-sans text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-950`}
+        className={`${inter.variable} ${firaCode.variable} ${headingFont.variable} antialiased min-h-screen font-sans text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-950`}
       >
         {children}
       </body>

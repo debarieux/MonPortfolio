@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Button from "@/components/ui/button";
 import { AnimatedHeader } from "./AnimatedHeader";
-import { Texturina } from 'next/font/google';
+import { Playfair_Display } from 'next/font/google';
 
 // Optimisation de la police en limitant les weights nécessaires
-const texturina = Texturina({
+const headingFont = Playfair_Display({
   subsets: ['latin'],
-  weight: ['400', '700'],  // Réduit aux poids réellement utilisés
-  variable: '--font-texturina',
-  display: 'swap',  // Améliore les performances de chargement de la police
+  weight: ['400', '700'],
+  variable: '--font-heading',
+  display: 'swap',
 });
 
 interface HeroSectionProps {
@@ -49,7 +49,7 @@ export default function HeroSection({
       <div className="text-center space-y-8 max-w-3xl px-4 z-10 animate-fade-in-up">
         <AnimatedHeader 
           text={name}
-          className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white ${texturina.variable} font-texturina drop-shadow-lg`}
+          className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white ${headingFont.variable} font-heading drop-shadow-lg`}
         />
         <h2 className="sr-only">Développeur web freelance pour sites vitrines professionnels</h2>
         <p className="text-base sm:text-lg md:text-xl text-gray-100 mb-8 leading-relaxed max-w-2xl mx-auto" 

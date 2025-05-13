@@ -2,20 +2,5 @@
   "version": 2,
   "public": true,
   "name": "mon-portfolio-pro",
-  "scope": "debarieuxs-projects-cc6a0382",
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/",
-      "headers": {
-        "Cache-Control": "public, max-age=3600"
-      }
-    }
-  ]
+  "scope": "debarieuxs-projects-cc6a0382"
 }

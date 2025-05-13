@@ -1,8 +1,8 @@
-import { Texturina } from 'next/font/google'
+import { Playfair_Display } from 'next/font/google'
 
-export const texturina = Texturina({
+export const headingFont = Playfair_Display({
   subsets: ['latin'],
-  weight: 'variable',
-  variable: '--font-texturina',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-heading',
   display: 'swap',
 })
