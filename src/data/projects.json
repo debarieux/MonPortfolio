@@ -2,7 +2,6 @@
   {
     "id": 1,
     "title": "Site personnel",
-    "icon": "💼",
     "description": "Site vitrine personnel optimisé SEO présentant mes compétences, services et réalisations en tant que développeur web. Design responsive, navigation intuitive et performances optimales.",
     "shortDescription": "Portfolio professionnel avec design responsive et optimisation SEO",
     "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
@@ -12,8 +11,7 @@
   },
   {
     "id": 2,
-    "title": "Entreprise de nettoyage",
-    "icon": "🧼",
+    "title": "Ti-Dass nettoyage",
     "description": "Conception et développement d'un site vitrine pour une entreprise locale de nettoyage professionnel. Mise en valeur des services, témoignages clients authentiques et formulaire de demande de devis optimisé pour les conversions.",
     "shortDescription": "Vitrine web pour services de nettoyage avec formulaire de contact optimisé",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
@@ -23,8 +21,7 @@
   },
   {
     "id": 3,
-    "title": "Site artisan - Bricolage",
-    "icon": "🔨",
+    "title": "Site artisan - Bricoltout",
     "description": "Création d'un site web pour un artisan bricoleur mettant en valeur son savoir-faire, ses réalisations et ses services. Galerie de projets optimisée pour les performances et SEO local pour une meilleure visibilité.",
     "shortDescription": "Site artisanal avec galerie de réalisations et optimisation SEO local",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
@@ -35,7 +32,6 @@
   {
     "id": 4,
     "title": "Site de Photographie",
-    "icon": "📷",
     "description": "Développement d'un portfolio artistique pour une photographe professionnelle avec galerie interactive optimisée pour les images haute résolution. Interface élégante et fonctionnelle avec gestion efficace des ressources.",
     "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
@@ -45,8 +41,7 @@
   },
   {
     "id": 5,
-    "title": "Site vitrine - Portfolio",
-    "icon": "🧼",
+    "title": "landing page - Portfolio",
     "description": "Interface responsive pour entreprise de nettoyage, incluant un formulaire optimisé",
     "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
@@ -56,8 +51,7 @@
   },
   {
     "id": 6,
-    "title": "CV en ligne",
-    "icon": "💻",
+    "title": "Développeur Web - Portfolio",
     "description": "Portfolio web sobre et immersif, pensé pour valoriser les projets avec une interface épurée, une navigation fluide et une expérience utilisateur optimisée.",
     "shortDescription": "Portfolio immersif pour explorer mes créations web alliant design et fluidité.",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],

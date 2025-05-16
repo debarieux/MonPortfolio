@@ -26,7 +26,7 @@ export default function Home() {
       {/* Section d'introduction */}
       <HeroSection 
         name="David Debarieux"
-        tagline="Sites web modernes et performants pour artisans, indépendants et PME"
+        tagline="Sites web modernes et performants pour auto-entrepreneurs, artisans et petites entreprises."
         backgroundImage="/images/hero.jpg"
       />
       

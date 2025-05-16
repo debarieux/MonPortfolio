@@ -31,7 +31,7 @@ const AvatarImage = React.forwardRef<
     alt={alt}
     {...props}
     fill
-    sizes="100vw"
+    sizes="(max-width: 768px) 100px, 150px"
   />
 ))
 AvatarImage.displayName = "AvatarImage"

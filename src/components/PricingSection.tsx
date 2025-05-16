@@ -25,7 +25,7 @@ export function PricingSection() {
               <div className="text-orange-600 dark:text-orange-300 min-h-[40px] text-sm">
                 Site <strong>1 page</strong> – idéal pour une présence rapide et professionnelle
               </div>
-              <div className="text-4xl font-extrabold text-orange-800 dark:text-orange-200 mt-2">250 € <span className="text-sm font-normal">TTC</span></div>
+              <div className="text-4xl font-extrabold text-orange-800 dark:text-orange-200 mt-2">270 € <span className="text-sm font-normal">TTC</span></div>
             </CardHeader>
             <CardContent className="p-6 flex-grow">
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
@@ -33,7 +33,7 @@ export function PricingSection() {
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Présentation + services + contact</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Formulaire intégré</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Lien vers les réseaux sociaux</span></li>
-                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>5 à 7 jours</strong></span></li>
+                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>10 à 12 jours</strong></span></li>
               </ul>
             </CardContent>
             <div className="p-6 bg-gray-50 dark:bg-gray-800/30 mt-auto">
@@ -51,14 +51,14 @@ export function PricingSection() {
               <div className="text-yellow-600 dark:text-yellow-300 min-h-[40px] text-sm">
                 Site <strong>3 pages</strong> : Accueil – À propos – Contact
               </div>
-              <div className="text-4xl font-extrabold text-yellow-800 dark:text-yellow-200 mt-2">390 € <span className="text-sm font-normal">TTC</span></div>
+              <div className="text-4xl font-extrabold text-yellow-800 dark:text-yellow-200 mt-2">410 € <span className="text-sm font-normal">TTC</span></div>
             </CardHeader>
             <CardContent className="p-6 flex-grow">
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Design moderne et mobile-friendly</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Intégration de vos textes, images et logo</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>SEO de base (référencement naturel)</span></li>
-                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>10 à 15 jours</strong></span></li>
+                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>15 à 20 jours</strong></span></li>
               </ul>
             </CardContent>
             <div className="p-6 bg-gray-50 dark:bg-gray-800/30 mt-auto">
@@ -75,7 +75,7 @@ export function PricingSection() {
               <div className="text-green-600 dark:text-green-300 min-h-[40px] text-sm">
                  Site <strong>5 pages</strong> : Accueil – À propos – Services – Galerie – Contact
               </div>
-              <div className="text-4xl font-extrabold text-green-800 dark:text-green-200 mt-2">550 € <span className="text-sm font-normal">TTC</span></div>
+              <div className="text-4xl font-extrabold text-green-800 dark:text-green-200 mt-2">650 € <span className="text-sm font-normal">TTC</span></div>
             </CardHeader>
             <CardContent className="p-6 flex-grow">
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
@@ -83,7 +83,7 @@ export function PricingSection() {
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Textes optimisés pour le SEO</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Formulaire de contact pro</span></li>
                 <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Aide pour le nom de domaine et hébergement</span></li>
-                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>15 à 20 jours</strong></span></li>
+                <li className="flex items-start"><Check className="w-5 h-5 mr-2 text-green-500 flex-shrink-0 mt-1" /><span>Livraison en <strong>20 à 30 jours</strong></span></li>
               </ul>
             </CardContent>
             <div className="p-6 bg-gray-50 dark:bg-gray-800/30 mt-auto">
