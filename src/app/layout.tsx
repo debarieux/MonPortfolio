@@ -118,6 +118,7 @@ export default function RootLayout({
     <html lang="fr" dir="ltr" className="scroll-smooth">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#0b0f19" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `

@@ -57,12 +57,12 @@
   {
     "id": 6,
     "title": "CV en ligne",
-    "icon": "📷",
-    "description": "Développement d'un portfolio artistique pour une photographe professionnelle avec galerie interactive optimisée pour les images haute résolution. Interface élégante et fonctionnelle avec gestion efficace des ressources.",
-    "shortDescription": "Portfolio de photographie avec galerie optimisée pour les images HQ",
+    "icon": "💻",
+    "description": "Portfolio web sobre et immersif, pensé pour valoriser les projets avec une interface épurée, une navigation fluide et une expérience utilisateur optimisée.",
+    "shortDescription": "Portfolio immersif pour explorer mes créations web alliant design et fluidité.",
     "technologies": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
-    "url": "#",
-    "image": "/images/projects/3.jpg",
-    "altText": "Portfolio en ligne pour photographe professionnelle avec galerie optimisée"
+    "url": "https://qenan-portfolio-new.vercel.app/",
+    "image": "/images/projects/qenansite.png",
+    "altText": "Portfolio de développeur web avec projets interactifs et design épuré."
   }
 ]

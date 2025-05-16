@@ -2,15 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   compress: true,
-  swcMinify: true,
+  // swcMinify est maintenant activé par défaut dans Next.js
   productionBrowserSourceMaps: false,
   poweredByHeader: false,
   eslint: {
-    // Désactiver les vérifications ESLint lors du build
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Désactiver les vérifications TypeScript lors du build
     ignoreBuildErrors: true,
   },
   images: {
@@ -32,14 +30,11 @@ const nextConfig = {
         hostname: 'cdn.pixabay.com',
       },
     ],
+    domains: ['localhost'],
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [320, 420, 768, 1024, 1200],
     imageSizes: [16, 32, 48, 64, 96],
     minimumCacheTTL: 60,
-  },
-  experimental: {
-    serverActions: true,
-    turbo: {}
   },
   headers: async () => [
     {

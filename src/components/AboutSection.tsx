@@ -53,7 +53,7 @@ export default function AboutSection() {
                   </svg>
                 </div>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-                  J&apos;accompagne les <strong className="text-blue-700 dark:text-blue-400">artisans, indépendants, associations et particuliers</strong> dans la création de sites web modernes, efficaces et adaptés à leurs besoins spécifiques.
+                  J&apos;accompagne les <strong className="text-blue-700 dark:text-blue-400">les auto-entrepreneurs, artisans, petites entreprises, associations et particuliers</strong> dans la création de sites web modernes, efficaces et adaptés à leurs besoins spécifiques.
                 </p>
               </div>
               
@@ -77,7 +77,7 @@ export default function AboutSection() {
                 <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-xl shadow-sm">
                   <h3 className="font-bold text-xl mb-2 text-blue-700 dark:text-blue-400">Spécialité</h3>
                   <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Création de <strong>sites vitrines professionnels</strong> simples, clairs et performants. Un travail humain, réactif et accessible, adapté à votre budget.
+                    Création de <strong>votre identité digitale solide et évolutive,</strong> j’assemble design moderne, code optimisé et structure SEO rigoureuse. Un travail humain, réactif et accessible, adapté à votre budget.
                   </p>
                 </div>
               </div>

@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Développeur web spécialisé dans la création de sites vitrines professionnels pour artisans, indépendants et PME.
+            Développeur web expert en création de sites vitrines performants, j’assemble design moderne, code optimisé et structure SEO rigoureuse pour bâtir des identités digitales solides et évolutives, taillées pour les auto-entrepreneurs, artisans et petites entreprises.
             </p>
 
             <div className="flex items-center gap-4 pt-2">
